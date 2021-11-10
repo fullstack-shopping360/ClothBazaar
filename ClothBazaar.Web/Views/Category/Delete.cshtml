@@ -1,0 +1,13 @@
+﻿
+@model ClothBazaar.Entities.Category
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Are you sure tou want to Delete</h2>
+
+<form method="post">
+    <input type="hidden" value="@Model.ID"/>
+    <button type="submit">Delete</button>
+</form>
+
